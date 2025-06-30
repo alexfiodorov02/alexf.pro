@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# My Personal Site
+
+A personal site built with Next.js because... why not? 🚀
+
+A simple HTML page would've done the job, but I like building things with React and the component structure makes it super easy to add new sections or features later. I can easily throw in a blog section for technical posts, some fun animations or features, or whatever else comes to mind.
+
+Built with Create Next App because sometimes you just want to skip the boilerplate and get to the good stuff.
+
 ## Getting Started
 
 First, run the development server:
