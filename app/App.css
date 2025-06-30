@@ -116,7 +116,7 @@ ul.postlist li {
   display: flex;
   flex-direction: row;
   margin: 30px auto;
-  width: 290px;
+  width: 300px;
 }
 
 .author a,
@@ -127,8 +127,8 @@ ul.postlist li {
 
 a.author__logo {
   display: block;
-  width: 130px;
-  height: 130px;
+  width: 200px;
+  height: 200px;
 }
 
 a.author__logo #eyebrows {
