@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',  // Enables static HTML export
+  images: {
+    unoptimized: true,  // For static export
+  },
 };
 
 export default nextConfig;
