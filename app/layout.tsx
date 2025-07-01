@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   description: 'Personal portfolio website',
   keywords: 'full stack developer, software engineer, web development, React, TypeScript',
   robots: 'index, follow',
-  charSet: 'utf-8',
   openGraph: {
     type: 'website',
     locale: 'en_US',
