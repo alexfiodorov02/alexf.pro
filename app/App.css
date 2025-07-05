@@ -36,12 +36,12 @@ h1 {
 
 h2 {
   font-size: 28px;
-  color: #4f4f4f;
+  color: var(--text-muted);
 }
 
 h3 {
   font-size: 24px;
-  color: #595959;
+  color: var(--text-muted);
 }
 
 strong {
@@ -53,12 +53,13 @@ em {
 }
 
 a {
-  color: #cc3300;
-  text-decoration: none;
+  color: var(--accent);
+  text-decoration: underline dotted;
 }
 
 a:hover {
-  border-bottom: 1px solid #cc3300;
+  border-bottom: 1px solid var(--accent-hover);
+  text-decoration: underline dotted;
 }
 
 /* Layout & Spacing */
@@ -106,7 +107,7 @@ ul.postlist li {
 .postlist__date {
   display: block;
   font-size: 16px;
-  color: #595959;
+  color: var(--text-muted);
   line-height: 125%;
 }
 
@@ -152,7 +153,7 @@ a.author__logo:hover #eyebrows {
 }
 
 .author__elsewhere svg:hover {
-  fill: #cc3300;
+  fill: var(--accent-hover);
 }
 
 .author__elsewhere a + a {
@@ -166,7 +167,7 @@ a.author__logo:hover #eyebrows {
 }
 
 .author .author__site-title:hover {
-  color: #cc3300;
+  color: var(--accent-hover);
 }
 
 .author__my-name {
@@ -176,7 +177,7 @@ a.author__logo:hover #eyebrows {
 
 .author__post-date {
   font-size: 16px;
-  color: #595959;
+  color: var(--text-muted);
   line-height: 125%;
 }
 
