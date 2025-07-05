@@ -30,7 +30,7 @@ const AuthorSection: FC = () => {
         aria-label={`Visit ${authorData.name}'s personal website`}
       >
         <Image
-          src="/assets/Alex2.jpg"
+          src="/assets/Alex2.webp"
           alt={`${authorData.name} — Full-stack software engineer`}
           width={200}
           height={200}

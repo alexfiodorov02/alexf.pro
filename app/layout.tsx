@@ -19,11 +19,11 @@ export const metadata: Metadata = {
       'Explore the work of Alexander Fiodorov-Miller — a software engineer blending thoughtful design, CS education roots, and full-stack expertise into impactful digital experiences.',
     images: [
       {
-        url: '/assets/Alex2.jpg',
-        width: 1200,
-        height: 630,
+        url: '/assets/Alex2.webp',
+        width: 500,
+        height: 667,
         alt: 'Alexander Fiodorov-Miller',
-        type: 'image/jpeg',
+        type: 'image/webp',
       },
     ],
   },
@@ -55,7 +55,7 @@ export default function RootLayout({
             '@type': 'Person',
             name: 'Alexander Fiodorov-Miller',
             url: 'https://alexf.pro',
-            image: 'https://alexf.pro/assets/Alex2.jpg',
+            image: 'https://alexf.pro/assets/Alex2.webp',
             sameAs: [
               'https://github.com/alexfiodorov02',
               'https://linkedin.com/in/alexfiodorov02',
