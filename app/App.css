@@ -152,8 +152,8 @@ a.author__logo:hover #eyebrows {
   display: block;
 }
 
-.author__elsewhere svg:hover {
-  fill: var(--accent-hover);
+.author__elsewhere a:hover svg {
+  color: var(--accent-hover);
 }
 
 .author__elsewhere a + a {
