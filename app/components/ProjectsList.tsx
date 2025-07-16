@@ -11,8 +11,8 @@ const ProjectsList: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      name: "The Finance Tracker",
-      url: "https://github.com/jackSeigerman/Finance-Tracker",
+      name: "Expensely",
+      url: "https://github.com/jackSeigerman/Expensely",
       description: "Managing your finances never looked so good."
     },
     {
