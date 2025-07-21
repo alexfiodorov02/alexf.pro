@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   keywords:
     'Alexander Fiodorov-Miller, software engineer, full stack web developer, React TypeScript developer, inclusive tech, CS education startup, UX accessibility, web apps portfolio, JavaScript developer, GitHub projects',
   robots: 'index, follow',
+  alternates: {
+    canonical: 'https://alexf.pro',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -43,7 +46,6 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0D1B2A" />
-        <meta name="description" content="Full-stack developer and CS graduate blending design and engineering to build meaningful, accessible software. From launching a CS education startup for 1M+ students to shipping production-ready tools with React and Meteor.js, Alex creates tech that makes life easier—and more inclusive."></meta>
         <link rel="manifest" href="/manifest.json" />
         <Script
           id="structured-data"
@@ -70,6 +72,8 @@ export default function RootLayout({
               addressRegion: 'TN',
               addressCountry: 'US',
             },
+            jobTitle: 'Full-Stack Software Engineer',
+            knowsAbout: ['React', 'TypeScript', 'Accessibility', 'UX Design', 'Full-Stack Development'],
           })}
         </Script>
       </head>
