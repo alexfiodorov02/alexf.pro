@@ -25,6 +25,9 @@ const ProjectsList: React.FC = () => {
   ];
 
   return (
+    <div className="projects-list">
+    <h2>Projects</h2>
+    <p>Here's some of what I've built:</p>
     <ul className="postlist">
       {projects.map(project => (
         <li key={project.id}>
@@ -33,6 +36,7 @@ const ProjectsList: React.FC = () => {
         </li>
       ))}
     </ul>
+    </div>
   );
 };
 
