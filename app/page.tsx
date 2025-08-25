@@ -3,7 +3,7 @@
 import AuthorSection from './components/AuthorSection';
 import IntroSection from './components/IntroSection';
 import ProjectsList from './components/ProjectsList';
-import BlogSection from './components/BlogSection';
+import BlogSection from './blog/BlogSection';
 import './globals.css';
 import './App.css';
 
