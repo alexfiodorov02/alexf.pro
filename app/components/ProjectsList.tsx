@@ -21,7 +21,6 @@ const ProjectsList: React.FC = () => {
       url: "https://github.com/memphis-iis/glyphwitch",
       description: "Annotate, transcribe, and explore historical documents for research, education, and preservation."
     }
-    // Adding more projects here
   ];
 
   return (
