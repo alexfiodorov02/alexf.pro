@@ -19,10 +19,6 @@ Google Maps separates these concerns neatly. You can toggle between map types (e
 
 This isn’t just a small gripe. If I'm taking the train or the bus on a new route, then you bet that I want to see what the area around the stop will look like, especially if it's late at night. 
 
-![Bookshelf with with old IBM software manuals.](/blog/images/IBM_manuals_(17161235170).jpg)
-
-### "IBM manuals" by Kevin Savetz is licensed under CC BY 2.0
-
 When an interface mixes up simple actions and causes unexpected results, it makes users feel like they’re being punished for poking around. But if the user is not reading a manual before using the software, then curiosity is to be expected. 
 
 Exploring is how the user will put together their own mental map on how to use the app, and with time, they will master it. 
