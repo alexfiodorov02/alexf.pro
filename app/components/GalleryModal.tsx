@@ -17,7 +17,7 @@ const GalleryModal: React.FC<GalleryModalProps> = ({ images, open, index, onClos
       <div className="gallery-modal">
         <button onClick={onClose} className="gallery-modal-close">&times;</button>
         <button onClick={onPrev} className="gallery-modal-prev">&lt;</button>
-        <img src={images[index]} alt="Project screenshot" className="gallery-modal-image" tabIndex={-1} />
+        <img src={images[index]} alt="Project screenshot" className="gallery-modal-image" tabIndex={-1} width={800} height={450} />
         <button onClick={onNext} className="gallery-modal-next">&gt;</button>
       </div>
     </div>

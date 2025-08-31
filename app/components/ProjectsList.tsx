@@ -75,7 +75,11 @@ const ProjectsList: React.FC = () => {
         {projects.map(project => (
           <li key={project.id} className="project-item projects-list-item">
             <div className="projects-list-info">
-              <a tabIndex={0} href={project.url}>{project.name}</a>
+              {project.url ? (
+                <a tabIndex={0} href={project.url}>{project.name}</a>
+              ) : (
+                <span>{project.name}</span>
+              )}
               <span className="postlist__date">{project.description}</span>
             </div>
             {project.images && project.images.length > 0 && (
@@ -84,6 +88,8 @@ const ProjectsList: React.FC = () => {
                   src={project.images[0]}
                   alt={project.name + ' screenshot'}
                   className="project-image projects-list-image"
+                  width={320}
+                  height={180}
                   onClick={() => project.images ? openGallery(project.images) : undefined}
                 />
               </div>
