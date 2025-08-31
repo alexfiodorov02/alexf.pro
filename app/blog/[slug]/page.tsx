@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { getBlogPostBySlug, getAllBlogSlugs } from '@/lib/blog';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 type Props = {
     params: { slug: string };
@@ -38,7 +39,7 @@ export default async function BlogPostPage({ params }: Props) {
                     <h1 className="blog-post-title">{post.title}</h1>
                     <p className="blog-post-date">{post.date}</p>
                     <div className="prose prose-lg prose-neutral dark:prose-invert prose-p:mb-8">
-                        <ReactMarkdown>
+                        <ReactMarkdown rehypePlugins={[rehypeRaw]}>
                             {post.content}
                         </ReactMarkdown>
                     </div>

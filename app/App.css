@@ -222,7 +222,17 @@ a.author__logo:hover #eyebrows {
   margin-left: 1em;
   margin-bottom: 24px;
 }
-.blog-post-article li {
+.blog-post-article ul li {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 150%;
+}
+.blog-post-article ol {
+  list-style-type: decimal;
+  margin-left: 3em;
+  margin-bottom: 24px;
+}
+.blog-post-article ol li {
   margin-bottom: 8px;
   font-size: 20px;
   line-height: 150%;
