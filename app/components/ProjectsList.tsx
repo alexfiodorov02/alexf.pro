@@ -23,7 +23,7 @@ const ProjectsList: React.FC = () => {
     {
       id: 2,
       name: "EchoRead",
-      url: null,
+      url: "https://github.com/alexfiodorov02/EchoRead",
       description: "Turn any ebook into an audiobook, with dyslexia-friendly fonts for easier reading.",
       images: ["/assets/echoread1.png", "/assets/echoread2.png", "/assets/echoread3.png"]
     },
@@ -37,7 +37,7 @@ const ProjectsList: React.FC = () => {
     {
       id: 4,
       name: "Emprinnos",
-      url: null,
+      url: "https://web.archive.org/web/20220407160228/https://www.emprinnos.com/",
       description: "Spanish-language CS education startup focused on teaching web development skills (defunct).",
       images: ["/assets/emprinnos1.png", "/assets/emprinnos2.png"]
     },
