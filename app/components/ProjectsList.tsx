@@ -68,7 +68,7 @@ const ProjectsList: React.FC = () => {
   };
 
   return (
-    <div className="projects-list">
+  <section className="projects-list" aria-label="Projects">
       <h2>Projects</h2>
       <p>Here's some of what I've built:</p>
       <ul className="postlist">
@@ -107,7 +107,7 @@ const ProjectsList: React.FC = () => {
           onNext={nextImage}
         />
       )}
-    </div>
+  </section>
   );
 };
 

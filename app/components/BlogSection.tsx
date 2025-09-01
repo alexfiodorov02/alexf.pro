@@ -20,7 +20,7 @@ const BlogSection: React.FC = () => {
   ];
 
   return (
-    <div className="blog-section">
+  <section className="blog-section" aria-label="Blog">
       <h2>Blog</h2>
       <p>Thoughts on software development, design, and technology.</p>
       <ul className="postlist">
@@ -31,7 +31,7 @@ const BlogSection: React.FC = () => {
           </li>
         ))}
       </ul>
-    </div>
+  </section>
   );
 };
 
