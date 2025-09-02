@@ -37,7 +37,7 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="App blog-post-page">
             <main id="main" className="blog-post-main">
                 <article className="blog-post-article">
-                    <h1 className="blog-post-title">{post.title}</h1>
+                    <h1 className="blog-post-title">{post.title ? post.title : "Alexander Fiodorov-Miller"}</h1>
                     <p className="blog-post-date">{post.date}</p>
                     <div className="prose prose-lg prose-neutral dark:prose-invert prose-p:mb-8">
                         <ReactMarkdown rehypePlugins={[rehypeRaw]}>
