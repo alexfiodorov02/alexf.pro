@@ -18,28 +18,28 @@ const ProjectsList: React.FC = () => {
       name: "Expensely",
       url: "https://github.com/jackSeigerman/Expensely",
       description: "Managing your finances never looked so good.",
-      images: ["/assets/expensely1.png", "/assets/expensely2.png", "/assets/expensely3.png"]
+      images: ["/assets/expensely1.webp", "/assets/expensely2.webp", "/assets/expensely3.webp"]
     },
     {
       id: 2,
       name: "EchoRead",
       url: "https://github.com/alexfiodorov02/EchoRead",
       description: "Turn any ebook into an audiobook, with dyslexia-friendly fonts for easier reading.",
-      images: ["/assets/echoread1.png", "/assets/echoread2.png", "/assets/echoread3.png"]
+      images: ["/assets/echoread1.webp", "/assets/echoread2.webp", "/assets/echoread3.webp"]
     },
     {
       id: 3,
       name: "Glyphwitch",
       url: "https://github.com/memphis-iis/glyphwitch",
       description: "Annotate, transcribe, and explore historical documents for research, education, and preservation.",
-      images: ["/assets/glyphwitch1.png", "/assets/glyphwitch2.png", "/assets/glyphwitch3.png"]
+      images: ["/assets/glyphwitch1.webp", "/assets/glyphwitch2.webp", "/assets/glyphwitch3.webp"]
     },
     {
       id: 4,
       name: "Emprinnos",
       url: "https://web.archive.org/web/20220407160228/https://www.emprinnos.com/",
       description: "Spanish-language CS education startup focused on teaching web development skills (defunct).",
-      images: ["/assets/emprinnos1.png", "/assets/emprinnos2.png"]
+      images: ["/assets/emprinnos1.webp", "/assets/emprinnos2.webp"]
     },
   ]
 
