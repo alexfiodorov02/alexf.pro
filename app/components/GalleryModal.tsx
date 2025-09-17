@@ -84,8 +84,6 @@ const GalleryModal: React.FC<GalleryModalProps> = ({ images, open, index, onClos
           alt={`Project screenshot ${index + 1} of ${images.length}`}
           className="gallery-modal-image"
           tabIndex={-1}
-          width={800}
-          height={450}
           aria-live="polite"
         />
         <button
