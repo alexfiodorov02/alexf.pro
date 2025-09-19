@@ -70,7 +70,7 @@ const ProjectsList: React.FC = () => {
   return (
   <section className="projects-list" aria-label="Projects">
       <h2>Projects</h2>
-      <p>Here's some of what I've built:</p>
+      <p>Here's some of what I've worked on:</p>
       <ul className="postlist">
         {projects.map(project => (
           <li key={project.id} className="project-item projects-list-item">
